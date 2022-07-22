@@ -1,0 +1,4 @@
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\Release\onnxruntime.dll
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\Release\onnxruntime_providers_shared.dll
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\Release\onnxruntime_providers_cuda.dll
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\Release\onnxruntime_providers_tensorrt.dll

@@ -1,0 +1,8 @@
+﻿  Building Custom Rule C:/visionin_libs/build/nx_build/metadata_sdk/nx_kit/CMakeLists.txt
+  utils.cpp
+  debug.cpp
+  ini_config.cpp
+  output_redirector.cpp
+  test.cpp
+  json.cpp
+  nx_kit.vcxproj -> C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\nx_kit\Release\nx_kit.lib

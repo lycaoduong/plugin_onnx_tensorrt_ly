@@ -1,0 +1,42 @@
+﻿  Building Custom Rule C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/CMakeLists.txt
+  detection.cpp
+  device_agent.cpp
+  engine.cpp
+  object_detector.cpp
+  object_tracker.cpp
+  object_tracker_utils.cpp
+  plugin.cpp
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\frame.h(84,57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_tracker_utils.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\frame.h(84,57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_tracker.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\frame.h(84,57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.h(52,44): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.h(53,39): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.h(54,36): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.cpp(441,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.cpp(445,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.cpp(446,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.cpp(447,64): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.cpp(448,62): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.cpp(453,66): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\frame.h(84,57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\device_agent.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.h(52,44): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\device_agent.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.h(53,39): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\device_agent.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.h(54,36): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\device_agent.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\frame.h(84,57): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\engine.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.h(52,44): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\engine.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.h(53,39): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\engine.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.h(54,36): warning C4305: 'initializing': truncation from 'double' to 'float' (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\engine.cpp)
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\numeric(34,33): warning C4244: 'argument': conversion from '__int64' to 'const _Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ] (compiling source file C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.cpp)
+C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\src\nx\vms_server_plugins\analytics\sample\object_detector.cpp(43): message : see reference to function template instantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<__int64>>>,int,std::multiplies<_Ty>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<int64_t>>>,
+              _Fn=std::multiplies<int>
+          ]
+     Creating library C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build/Release/vfd_tensorrt_analytics_plugin.lib and object C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build/Release/vfd_tensorrt_analytics_plugin.exp
+  vfd_tensorrt_analytics_plugin.vcxproj -> C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\Release\vfd_tensorrt_analytics_plugin.dll

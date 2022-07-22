@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{C15A669E-4971-37B0-B362-9D72E47804F4}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>nx_sdk</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nx_sdk.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">nx_sdk</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nx_sdk.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">nx_sdk</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\visionin_libs\build\nx_build\metadata_sdk\src;C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NX_PLUGIN_API=__declspec(dllexport);NX_KIT_API=;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;NX_PLUGIN_API=__declspec(dllexport);NX_KIT_API=;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\visionin_libs\build\nx_build\metadata_sdk\src;C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\visionin_libs\build\nx_build\metadata_sdk\src;C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\visionin_libs\build\nx_build\metadata_sdk\src;C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NX_PLUGIN_API=__declspec(dllexport);NX_KIT_API=;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;NX_PLUGIN_API=__declspec(dllexport);NX_KIT_API=;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\visionin_libs\build\nx_build\metadata_sdk\src;C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\visionin_libs\build\nx_build\metadata_sdk\src;C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly -BC:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build --check-stamp-file C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\CMakeFiles\3.24.0-rc2\CMakeCCompiler.cmake;C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly -BC:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build --check-stamp-file C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.24\Modules\Platform\WindowsPaths.cmake;C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\CMakeFiles\3.24.0-rc2\CMakeCCompiler.cmake;C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\CMakeFiles\3.24.0-rc2\CMakeCXXCompiler.cmake;C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\CMakeFiles\3.24.0-rc2\CMakeRCCompiler.cmake;C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\CMakeFiles\3.24.0-rc2\CMakeSystem.cmake;C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\consuming_device_agent.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\consuming_device_agent.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\engine.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\engine.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\engine_info.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\engine_info.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\event_metadata.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\event_metadata.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\event_metadata_packet.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\event_metadata_packet.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\metadata_types.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\metadata_types.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_metadata.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_metadata.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_metadata_packet.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_metadata_packet.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_track_best_shot_packet.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_track_best_shot_packet.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_track_info.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_track_info.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\pixel_format.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\pixel_format.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\plugin.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\plugin.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\timestamped_object_metadata.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\timestamped_object_metadata.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_action.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_compound_metadata_packet.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_compressed_media_packet.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_compressed_video_packet.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_consuming_device_agent.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_custom_metadata_packet.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_data_packet.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_device_agent.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_engine.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_engine_info.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_event_metadata.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_event_metadata_packet.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_media_context.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_metadata.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_metadata_packet.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_metadata_types.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_motion_metadata_packet.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_object_metadata.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_object_metadata_packet.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_object_track_best_shot_packet.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_object_track_info.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_plugin.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_timestamped_object_metadata.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_uncompressed_media_frame.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_uncompressed_video_frame.h" />
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\manifests.md">
+    </None>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\point.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\rect.h" />
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\taxonomy.md">
+    </None>
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\attributes.md">
+    </None>
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\dynamic_libraries.md">
+    </None>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\attribute.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\attribute.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\device_info.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\device_info.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\error.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\error.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\i_ref_countable_registry.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\lib_context.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\lib_context.h" />
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\lib_context.md">
+    </None>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\list.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\log_utils.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\log_utils.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\media_stream_statistics.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\media_stream_statistics.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\plugin_diagnostic_event.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\plugin_diagnostic_event.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\ref_countable.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\settings_response.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\settings_response.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\string.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\string.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\string_list.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\string_list.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\string_map.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\string_map.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\to_string.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\to_string.h" />
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\uuid_helper.cpp" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\uuid_helper.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_attribute.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_device_info.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_list.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_plugin.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_plugin_diagnostic_event.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_ref_countable.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_settings_response.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_string.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_string_list.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_string_map.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_utility_provider.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\interface.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\ptr.h" />
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\result.h" />
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\settings_model.md">
+    </None>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\uuid.h" />
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx_sdk_version.inc">
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\ZERO_CHECK.proj">
+      <Project>{A3391051-DB5F-3996-B3A5-0EB663BB07F6}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\nx_kit\nx_kit.vcxproj">
+      <Project>{15CA7C95-7824-3433-9469-18B8B2F9C268}</Project>
+      <Name>nx_kit</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

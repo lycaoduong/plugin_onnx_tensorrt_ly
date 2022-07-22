@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\consuming_device_agent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\engine_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\event_metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\event_metadata_packet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\metadata_types.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_metadata_packet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_track_best_shot_packet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_track_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\pixel_format.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\plugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\timestamped_object_metadata.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\attribute.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\device_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\lib_context.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\log_utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\media_stream_statistics.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\plugin_diagnostic_event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\settings_response.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\string_list.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\string_map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\to_string.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\uuid_helper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\consuming_device_agent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\engine_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\event_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\event_metadata_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\metadata_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_metadata_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_track_best_shot_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\object_track_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\pixel_format.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\helpers\timestamped_object_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_action.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_compound_metadata_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_compressed_media_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_compressed_video_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_consuming_device_agent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_custom_metadata_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_data_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_device_agent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_engine_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_event_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_event_metadata_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_media_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_metadata_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_metadata_types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_motion_metadata_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_object_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_object_metadata_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_object_track_best_shot_packet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_object_track_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_timestamped_object_metadata.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_uncompressed_media_frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\i_uncompressed_video_frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\point.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\attribute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\device_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\i_ref_countable_registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\lib_context.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\log_utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\media_stream_statistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\plugin_diagnostic_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\ref_countable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\settings_response.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\string_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\string_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\to_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\uuid_helper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_attribute.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_device_info.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_plugin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_plugin_diagnostic_event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_ref_countable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_settings_response.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_string.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_string_list.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_string_map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\i_utility_provider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\interface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\ptr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\result.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\uuid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\manifests.md" />
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\analytics\taxonomy.md" />
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\attributes.md" />
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\dynamic_libraries.md" />
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\helpers\lib_context.md" />
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx\sdk\settings_model.md" />
+    <None Include="C:\visionin_libs\build\nx_build\metadata_sdk\src\nx_sdk_version.inc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5565C4EE-9E6B-3B9A-AF53-F9FE73789500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7322E601-18F2-39B7-AF1E-7B899D1A4220}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

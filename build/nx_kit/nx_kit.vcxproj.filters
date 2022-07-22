@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\nx\kit\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\nx\kit\debug.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\nx\kit\ini_config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\nx\kit\output_redirector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\nx\kit\test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\nx\kit\json.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\nx\kit\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\nx\kit\debug.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\nx\kit\ini_config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\nx\kit\output_redirector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\nx\kit\test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\nx\kit\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\nx\kit\flags.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\ini_config_c.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\src\ini_config_c_impl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\visionin_libs\build\nx_build\metadata_sdk\nx_kit\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5565C4EE-9E6B-3B9A-AF53-F9FE73789500}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7322E601-18F2-39B7-AF1E-7B899D1A4220}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

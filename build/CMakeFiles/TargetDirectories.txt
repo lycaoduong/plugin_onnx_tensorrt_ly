@@ -1,0 +1,6 @@
+C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build/CMakeFiles/nx_sdk.dir
+C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build/CMakeFiles/vfd_tensorrt_analytics_plugin.dir
+C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build/CMakeFiles/ALL_BUILD.dir
+C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build/CMakeFiles/ZERO_CHECK.dir
+C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build/nx_kit/CMakeFiles/nx_kit.dir
+C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build/nx_kit/CMakeFiles/ALL_BUILD.dir

@@ -1,0 +1,10 @@
+^C:\VISIONIN_LIBS\BUILD\NX_BUILD\METADATA_SDK\SAMPLES\PLUGIN_ONNX_TENSORRT_LY\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly -BC:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build --check-stamp-file C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

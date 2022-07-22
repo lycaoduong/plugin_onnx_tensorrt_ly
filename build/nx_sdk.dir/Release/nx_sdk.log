@@ -1,0 +1,28 @@
+﻿  Building Custom Rule C:/visionin_libs/build/nx_build/metadata_sdk/samples/plugin_onnx_tensorrt_ly/CMakeLists.txt
+  consuming_device_agent.cpp
+  engine.cpp
+  engine_info.cpp
+  event_metadata.cpp
+  event_metadata_packet.cpp
+  metadata_types.cpp
+  object_metadata.cpp
+  object_metadata_packet.cpp
+  object_track_best_shot_packet.cpp
+  object_track_info.cpp
+  pixel_format.cpp
+  plugin.cpp
+  timestamped_object_metadata.cpp
+  attribute.cpp
+  device_info.cpp
+  error.cpp
+  lib_context.cpp
+  log_utils.cpp
+  media_stream_statistics.cpp
+  plugin_diagnostic_event.cpp
+  settings_response.cpp
+  string.cpp
+  string_list.cpp
+  string_map.cpp
+  to_string.cpp
+  uuid_helper.cpp
+  nx_sdk.vcxproj -> C:\visionin_libs\build\nx_build\metadata_sdk\samples\plugin_onnx_tensorrt_ly\build\Release\nx_sdk.lib
